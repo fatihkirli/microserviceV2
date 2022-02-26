@@ -1,0 +1,17 @@
+server:
+  port: 9001
+  error:
+    include-message: always
+    include-binding-erroe: always
+
+spring:
+  application:
+    name: CUSTOMER-SERVICE
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+##Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+
+
